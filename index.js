@@ -23,6 +23,6 @@ function selectWhoWin() {
       "Player 2 Wins! <i class='fa-solid fa-flag'></i> ";
     document.querySelector(".fa-solid").style.color = "#9d0104";
   } else {
-    document.querySelector("h1").textContent = "Draw!";
+    document.querySelector("h1").textContent = "Draw! <br> Draw!";
   }
 }
